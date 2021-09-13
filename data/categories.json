@@ -1,0 +1,62 @@
+{
+  "data": {
+    "categories": [
+      {
+        "name": "Aperitivos",
+        "img": "https://cdn.pixabay.com/photo/2020/02/11/15/41/shrimp-4839919_960_720.jpg",
+        "icon": "mdi-silverware-fork-knife",
+        "description": "Para abrir o apetite",
+        "slug": "aperitivos"
+      },
+      {
+        "name": "Pratos principais",
+        "img": "https://live.staticflickr.com/65535/51016907195_4460dcfd50_z.jpg",
+        "icon": "mdi-pasta",
+        "description": "Comemore com os familiares e amigos ",
+        "slug": "pratos-principais"
+      },
+      {
+        "name": "Entrada",
+        "img": "https://live.staticflickr.com/65535/51016925505_36f9013ccd_z.jpg",
+        "icon": "mdi-food-croissant",
+        "description": "Aquecimento para o prato principal",
+        "slug": "entrada"
+      },
+      {
+        "name": "Sobremesas",
+        "img": "https://live.staticflickr.com/65535/51082651598_7a69ed6e83_z.jpg",
+        "icon": "mdi-cookie",
+        "description": "Não pode faltar aquele doce.",
+        "slug": "sobremesas"
+      },
+      {
+        "name": "Sopas",
+        "img": "https://live.staticflickr.com/65535/51086110886_d236fc6fe9_z.jpg",
+        "icon": "mdi-bowl-mix",
+        "description": "Uma sopa pá nós. Hmm!",
+        "slug": "sopas"
+      },
+      {
+        "name": "Bebidas",
+        "img": "https://live.staticflickr.com/65535/51086110856_bd6330d3bf_z.jpg",
+        "icon": "mdi-glass-cocktail",
+        "description": "Refresque a garganta",
+        "slug": "bebidas"
+      },
+      {
+        "name": "Vegano",
+        "img": "https://cdn.pixabay.com/photo/2021/02/18/23/29/avocado-6028656_960_720.jpg",
+        "icon": "mdi-leaf",
+        "description": "Contra o aquecimento global ao menos uma vez na semana, rs.",
+        "slug": "vegano"
+      },
+      {
+        "name": "Fast",
+        "img": "https://live.staticflickr.com/65535/51082653073_b8f86c8634_z.jpg",
+        "icon": "mdi-hamburger",
+        "description": "A ideia é não morrer de fome",
+        "slug": "fast"
+      }
+    ]
+  }
+}
