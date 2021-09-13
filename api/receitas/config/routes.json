@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/receitas",
+      "handler": "receitas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/receitas/count",
+      "handler": "receitas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/receitas/:id",
+      "handler": "receitas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/receitas",
+      "handler": "receitas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/receitas/:id",
+      "handler": "receitas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/receitas/:id",
+      "handler": "receitas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "receitas",
+  "info": {
+    "name": "receitas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "servings": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ingredients": {
+      "type": "json"
+    },
+    "steps": {
+      "type": "json"
+    },
+    "likes": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "category": {
+      "model": "categories",
+      "via": "receitas"
+    },
+    "autor": {
+      "via": "receitas",
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
